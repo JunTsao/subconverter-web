@@ -16,6 +16,14 @@ rule-providers:
     path: ./ruleset/reject.yaml
     interval: 86400
 
+  openai:
+    type: http
+    behavior: classical
+    url: "https://gist.githubusercontent.com/JunTsao/0ded89646eda10968c332156ec2560da/raw/UT-Rule-US.list"
+    path: ./ruleset/UT-Rule-US.list
+    interval: 86400
+    
+
   icloud:
     type: http
     behavior: domain
