@@ -22,7 +22,6 @@ rule-providers:
     url: "https://gist.githubusercontent.com/JunTsao/0ded89646eda10968c332156ec2560da/raw/UT-Rule-US.txt"
     path: ./ruleset/UT-Rule-US.txt
     interval: 86400
-    
 
   icloud:
     type: http
