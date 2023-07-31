@@ -16,7 +16,7 @@ rule-providers:
     path: ./ruleset/reject.yaml
     interval: 86400
 
-  openai:
+  append:
     type: http
     behavior: classical
     url: "https://gist.githubusercontent.com/JunTsao/0ded89646eda10968c332156ec2560da/raw/UT-Rule-US.txt"
